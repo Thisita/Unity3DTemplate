@@ -1,15 +1,29 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GlobalPauseController : MonoBehaviour {
+public class GlobalPauseController : MonoBehaviour
+{
+    // Handle pausing
+    private bool _paused = false;
+    public bool Paused
+    {
+        get
+        {
+            return _paused;
+        }
+        set
+        {
+            if (value != _paused)
+            {
+                Time.timeScale = value ? 0.0f : 1.0f;
+                _paused = value;
+            }
+        }
+    }
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    // Handle pause event
+    void OnApplicationPause(bool pauseStatus)
+    {
+        Paused = pauseStatus;
+    }
 }
