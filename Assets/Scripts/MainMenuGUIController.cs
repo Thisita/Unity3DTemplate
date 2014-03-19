@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MainMenuController : MonoBehaviour
+public class MainMenuGUIController : MonoBehaviour
 {
     // Skin to use for menu controls
     public GUISkin skin;
