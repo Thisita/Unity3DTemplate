@@ -234,14 +234,14 @@ pip-log.txt
 /*.booproj
 
 #Un-ignore these specific files
-!Library/*.asset
-!Library/AssetImportState
-!Library/AssetVersioning.db
-!Library/BuildPlayer.prefs
-!Library/ScriptMapper
-!Library/assetservercachev3
-!Library/expandedItems
-!Library/guidmapper
-!Library/unity default resources
-!Library/unity editor resources
-!Library/metadata/
+![Ll]ibrary/*.asset
+![Ll]ibrary/AssetImportState
+![Ll]ibrary/AssetVersioning.db
+![Ll]ibrary/BuildPlayer.prefs
+![Ll]ibrary/ScriptMapper
+![Ll]ibrary/assetservercachev3
+![Ll]ibrary/expandedItems
+![Ll]ibrary/guidmapper
+![Ll]ibrary/unity default resources
+![Ll]ibrary/unity editor resources
+![Ll]ibrary/metadata/
